@@ -1,0 +1,60 @@
+body {
+  background-color: #0f1117;
+  color: #e5e5e5;
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 40px 20px 10px;
+  background: linear-gradient(90deg, #1f1c2c, #928dab);
+  color: #fff;
+}
+
+header a {
+  color: #00ffc8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.upload-box {
+  background-color: #1a1d24;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #2a2f3a;
+  border-radius: 12px;
+  max-width: 500px;
+  box-shadow: 0 0 15px #00ffc880;
+}
+
+.upload-box input[type="file"] {
+  margin: 20px 0;
+  color: #fff;
+}
+
+.upload-box button {
+  padding: 12px 25px;
+  background-color: #00ffc8;
+  color: #0f1117;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.upload-box button:hover {
+  background-color: #00cba2;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+

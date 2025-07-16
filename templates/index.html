@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Resume Analyzer - Ajay's Version</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>👨‍💻 Smart Resume Analyzer</h1>
+    <p>Built by <strong>Ajay Katkuri</strong> — For Job-Ready Coders 🚀</p>
+    <p><a href="https://github.com/ajaykatkuri" target="_blank">🌐 GitHub</a></p>
+  </header>
+
+  <div class="upload-box">
+    <h2>📄 Upload Your Resume</h2>
+    <p>Let’s match it with a job you’re meant for.</p>
+
+    <form method="POST" action="/analyze" enctype="multipart/form-data">
+      <input type="file" name="resume" accept=".pdf" required />
+      <button type="submit">🚀 Analyze</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>💡 Made with Flask, Python & Passion</p>
+  </footer>
+
+</body>
+</html>

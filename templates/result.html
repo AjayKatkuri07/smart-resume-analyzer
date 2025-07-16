@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Match Results - Ajay's Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>📊 Resume Analysis Result</h1>
+  </header>
+
+  <div class="upload-box">
+    <p><strong>🎯 Matched Job Role:</strong> {{ job }}</p>
+    <p><strong>📈 Match Score:</strong> {{ score }}%</p>
+    <p><strong>🧠 Required Skills:</strong> {{ skills }}</p>
+    <br>
+    <a href="/">
+      <button>🔁 Analyze Another</button>
+    </a>
+  </div>
+
+  <footer>
+    <p>🛠 Built with 💻 by Ajay</p>
+  </footer>
+</body>
+</html>
